@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 const Card = () => {
   return (
-    <div className='container'>
+    <main className='container'>
         <div className='card'>
             <div className='card_profile'>
                 <div className='profile_pic'>
-                    <Image src={profile} alt=''/>
+                    <Image src={profile} alt="Jessica Randall's profile picture"/>
                 </div>
                 <div className='profile_name'>
                     <h2>Jessica Randall</h2>
@@ -25,7 +25,7 @@ const Card = () => {
                 <div className='media'><p>Instagram</p></div>
             </div>
         </div>
-    </div>
+    </main>
   )
 }
 
