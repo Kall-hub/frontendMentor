@@ -34,12 +34,12 @@
     color: #fff;
     text-transform: capitalize;
 }
-.profile_name h2{
+.profile_name h1{
     padding-top: 20px;
     font-size: 24px;
     font-weight: 700;
 }
-.profile_name h3{
+.profile_name h2{
     text-transform: capitalize;
     font-size: 14px;
     text-align: center;
@@ -93,10 +93,10 @@
         font-size: 12px;
         font-weight: 600;
     }
-    .profile_name h3{
+    .profile_name h2{
         font-size: 12px;
     }
-    .profile_name h2{
+    .profile_name h1{
         font-size: 22px;
     }
 }
